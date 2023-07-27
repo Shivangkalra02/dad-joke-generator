@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name shivangkalra02
+git config --global user.email "shivang.2024it1041@kiet.edu"
+git init
+git add .
+git commit -m "Initial Commit"
+git status #just to see
+ssh-keygen -t rsa -b 4096 -C "shivang.2024it1041@kiet.edu"
+tail </c/Users/HP/.ssh/id_rsa.pub> # add this key to your Github account
+get remote add origin <git@github.com:Shivangkalra02/dad-joke-generator.git>
+git push origin master
